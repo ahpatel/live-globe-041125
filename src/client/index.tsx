@@ -60,16 +60,16 @@ function App() {
       width: 400 * 2,
       height: 400 * 2,
       phi: 0,
-      theta: 0,
+      theta: 0.21,
       dark: 1,
       diffuse: 0.8,
-      mapSamples: 16000,
+      mapSamples: 25000,
       mapBrightness: 6,
-      baseColor: [0.3, 0.3, 0.3],
-      markerColor: [0.8, 0.1, 0.1],
-      glowColor: [0.2, 0.2, 0.2],
+      baseColor: [0.96, 0.51, 0.13],
+      markerColor: [0.54, 0.03, 0.03],
+      glowColor: [0.96, 0.51, 0.13],
       markers: [],
-      opacity: 0.7,
+      opacity: 0.8,
       onRender: (state) => {
         // Called on every animation frame.
         // `state` will be an empty object, return updated params.
